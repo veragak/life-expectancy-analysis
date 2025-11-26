@@ -15,32 +15,30 @@ and has been reorganized into a clean, reproducible data-science workflow.
 
 ---
 ## Repository Structure
-- `R-Code`
-  - 01_prepare_data.R # clean + merge datasets
-  - 02_fit_models.R # PCA + Elastic Net
-  - 03_make_predictions.R # predictions for new countries
-  - 04_complete_code.Rmd # optional combined script
+- **`R-Code/`**
+  - `01_prepare_data.R` — clean + merge datasets  
+  - `02_fit_models.R` — PCA + Elastic Net  
+  - `03_make_predictions.R` — predictions for new countries  
+  - `04_complete_code.Rmd` — optional combined script  
 
- - `data`
-    - world_health_indicators_data.csv # predictor variables
-    - life_expectancy_data.csv # target variable
-    - predictions_data.csv # new data for predictions
+- **`data/`**
+  - `world_health_indicators_data.csv` — predictor variables  
+  - `life_expectancy_data.csv` — target variable  
+  - `predictions_data.csv` — new data for predictions  
 
-- `figures`
-  - 01_PCA_scree_plot.png
-  - 02_permutation_test.png
-  - 03_bootstrap.png
-  - 04_boostrap_variance.png
-  - 05_elastic_net.png
-  - 06_elastic_net_coefficient.png
+- **`figures/`**
+  - `01_PCA_scree_plot.png`  
+  - `02_permutation_test.png`  
+  - `03_bootstrap.png`  
+  - `04_boostrap_variance.png`  
+  - `05_elastic_net.png`  
+  - `06_elastic_net_coefficient.png`  
 
-- `report`
-  - life_expectancy_analysis.Rmd # full reproducible analysis
-  - life_expectancy_analysis.pdf # final written report
+- **`report/`**
+  - `life_expectancy_analysis.Rmd` — full reproducible analysis  
+  - `life_expectancy_analysis.pdf` — final written report  
 
-- `README.md`
-
-
+- **`README.md`**
 ---
 
 ##Project Overview
