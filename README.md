@@ -22,9 +22,9 @@ and has been reorganized into a clean, reproducible data-science workflow.
   - 04_complete_code.Rmd # optional combined script
 
  - `data`
-  - world_health_indicators_data.csv # predictor variables
-  - life_expectancy_data.csv # target variable
-  - predictions_data.csv # new data for predictions
+    - world_health_indicators_data.csv # predictor variables
+    - life_expectancy_data.csv # target variable
+    - predictions_data.csv # new data for predictions
 
 - `figures`
   - 01_PCA_scree_plot.png
