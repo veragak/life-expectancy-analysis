@@ -38,9 +38,9 @@ library(kableExtra)
 ############################################################
 # Import and Clean Data
 ############################################################
-df_nutrition <- read.csv("772713vg_health_nutrition_population.csv") %>% clean_names()
+df_nutrition <- read.csv("world_health_indicators_data.csv") %>% clean_names()
 df_life_expectancy <- read.csv("life_expectancy_data.csv") %>% clean_names() %>% select(-x)
-df_prediction <- read.csv("predictions.csv") %>% clean_names() %>% select(-x)
+df_prediction <- read.csv("predictions_data.csv") %>% clean_names() %>% select(-x)
 
 ############################################################
 # Merge Data for Model Training
